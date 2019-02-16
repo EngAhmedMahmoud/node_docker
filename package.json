@@ -1,0 +1,19 @@
+{
+  "name": "node_docker",
+  "version": "1.0.0",
+  "description": "Docker image for running node application. How to use docker for deployment by creating conatiner for running node application on any platform with min-size storage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngAhmedMahmoud/node_docker.git"
+  },
+  "author": "EngAhmedMahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngAhmedMahmoud/node_docker/issues"
+  },
+  "homepage": "https://github.com/EngAhmedMahmoud/node_docker#readme"
+}
