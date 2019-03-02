@@ -1,7 +1,7 @@
 #get latest node version
 FROM node:8
 #create working directory
-WORKDIR /home/engahmed/DokerApp
+WORKDIR /DockerApp
 #copy package.json package-lock.json
 COPY package*.json ./
 #installing package
