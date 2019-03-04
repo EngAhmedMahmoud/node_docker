@@ -9,5 +9,5 @@ COPY . .
 #installing package
 RUN npm install
 # exposing running port
-EXPOSE 8080
+EXPOSE 4000
 CMD ["node","server.js"]
