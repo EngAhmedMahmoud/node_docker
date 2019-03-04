@@ -1,13 +1,13 @@
 #get latest node version
 FROM node:8
+#Author Name
+MAINTAINER EngAhmedMahmoud
 #create working directory
 WORKDIR /DockerApp
-#copy package.json package-lock.json
-COPY package*.json ./
+#copy all files
+COPY . .
 #installing package
 RUN npm install
-# bundling the app
-COPY . .
 # exposing running port
 EXPOSE 8080
 CMD ["node","server.js"]
